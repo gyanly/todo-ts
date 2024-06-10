@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+    //   "lib": [ "es6" ],
+      "target": "es6",
+      "module": "commonjs",
+      "declaration": true,
+      "moduleResolution": "Node",
+      "esModuleInterop": true,
+      "forceConsistentCasingInFileNames": true,
+      "strict": true,
+      "noUnusedLocals": true,
+      "noUnusedParameters": true,
+      "types": [
+        // "jest",
+        // "node",
+      ],
+      "rootDir": ".",
+      "outDir": "./dist",
+    },
+    "include": [
+      "src/**/*.ts", "src/index.ts",
+    //   "test/**/*.ts"
+    ]
+}
