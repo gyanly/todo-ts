@@ -10,7 +10,8 @@ var todos = [
 ];
 var collection = new todoCollection_1.TodoCollection("Adam", todos);
 console.log("".concat(collection.userName, "'s Todo List"));
-var newId = collection.addTodo("Go for run");
-var todoItem = collection.getTodoById(1);
-todoItem.printDetails();
+// let newId:number = collection.addTodo("Go for run");
+// let todoItem:TodoItem = collection.getTodoById(1);
+// todoItem.printDetails();
 // collection.addTodo(todoItem);
+collection.getTodoItems(true).forEach(function (item) { return item.printDetails(); });
